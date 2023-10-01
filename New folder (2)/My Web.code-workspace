@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../sph/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My Web"
+	}
+}
