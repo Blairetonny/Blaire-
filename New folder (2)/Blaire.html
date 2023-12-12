@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="mfavicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+     <!--<script
+      src="https://kit.fontawesome.com/bec97e0795.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <!--<link rel="stylesheet" href="jquery.flipster.min.css" />-->
+    <title>Blaire designs</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><span class="max">BLAIRE</span> designs</label>
+        <ul>
+          <li><a class="active" href="#hero">Home</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#main-gallery-container">Work Overview</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section style="background-color: #575555">
+      <div class="hero"new folder" id="hero">
+        <div class="hero-image"> 
+          <img src="New folder (2)/new AI.jpg" alt="" id="bgimage" />
+        </div>
+        <div class="hero-text">
+          <h2 style="color: rgb(63, 44, 236);">Hi, my name is</h2>
+          <h1 style="color: rgb(117, 176, 243);">Tonny Blaire</h1>
+          <h3 style="color: rgb(250, 115, 239);">
+            I'am a Web Developer and Network Engineer <br />
+            based in Kilifi, Kenya.
+          </h3>
+          <div class="newslatter">
+            <form
+              name="submit-to-google-sheet"
+              onsubmit="sendEmail();  return false;" >
+              <input
+                for="email"
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="Enter email to recieve updates"
+                required
+              />
+              <input type="submit" name="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----About section start---->
+    <section class="about">
+      <div class="about-me" id="about-me">
+        <h2>About Me</h2>
+        <div class="main">
+          <div>
+            <img src="New folder (2)/blab.jpg" alt="Hello" />
+            </div>
+          <div class="about-text">
+            <h5>I am a Web Developer <span> & Networking Expert</span></h5>
+            <p>
+              I am a web developer.<br /> I provide clean code and pixel perfect
+              design and also make the website more & more interactive with web
+              animations. <br />
+              <br />
+              I am also a professional graphics designer with a lot of
+              experience in graphics design work.
+            </p>
+            <a href="https://wa.me/254715514130" target="_blank">
+              <button type="button">Let's Talk</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Some of Our Clients Section -->
+    <section></section>
+
+    <!-----service section start----------->
+    <div class="service" id="service">
+      <div class="title">
+        <h2>my Services</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <!-- <i class="fas fa-bars"></i> -->
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+             <b> I create, maintain, debug and deploy websites.</b> 
+              <br />
+              - Portfolio websites <br />
+              - Commercial websites <br />
+              - Organisation / Company websites <br />
+              - School websites <br />
+            </p>
+
+            <!-- <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p> -->
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- <i class="far fa-user"></i> -->
+          <h5>Network Maintainance</h5>
+          <div class="pra">
+            <p>
+              <b>I do the following to serve my clients.</b>
+              <br />
+              - Troubleshooting Network <br />
+              - Networking Installation <br />
+              - Perfomance Management <br>
+              - P.C/ Laptop Maintainance <br>
+              - CCTV Installation
+            </p>
+
+            <!-- <p style="text-align: center">
+              <a class="button" href="#">Read More</a> 
+            </p> -->
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- <i class="far fa-bell"></i> -->
+          <h5>Graphics Design</h5>
+          <div class="pra">
+            <p>
+              <b>I do a wide range of design</b>
+               <br />
+              1. Branding design<br />
+              - Logos, Business cards, Letterhead, Signage, Website branding
+              <br />
+              2. Print design <br />
+              -Flyers, Billboards, Stickers, Stationery sets, Bronchures,
+
+              <br />
+              - Wedding, Aniversary and Birthday cards
+            </p>
+
+            <!-- <p style="text-align: center">
+              <a class="button" href="#">Read More</a><br/>
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-------My work-------->
+    <section id="main-gallery-container">
+      <div class="gallery-container" id="gallery-container">
+        <h2>Work Overview and Tools I use</h2>
+        <div class="image-container">
+          <div class="item">
+            <img src="New folder (2)/css.jpg".jpg" alt="image" />
+            <span class="caption"> CSS Certifates</span>
+          </div>
+          <div class="item">
+            <img src="New folder (2)/js.jpg" alt="image" />
+            <span class="caption">javascript certificate</span>
+          </div>
+          <div class="item">
+            <img src="New folder (2)/kit.jpg" alt="image" />
+            <span class="caption">Laptop Maintainance Toolkit</span>
+          </div>
+          <div class="item">
+            <img src="New folder (2)/toolkit.jpg" alt="image" />
+            <span class="caption">toolkit</span>
+          </div>
+          <div class="item">
+            <img src="New folder (2)/networking.jpg" alt="image" />
+            <span class="caption">Laptop Maintainance Toolkit</span>
+          </div>
+
+          <div class="item">
+            <img src="New folder (2)/laptop.jpeg" alt="image" />
+            <span class="caption">laptop</span>
+          </div>
+          <div class="item">
+            <img src="New folder (2)/weeding.png" alt="image" />
+            <span class="caption">LWedding & Anniversary Cards</span>
+          </div>
+          <div class="item">
+            <img src="New folder (2)/babyshower.png" alt="image" />
+            <span class="caption">Birthday CardsP.C/</span>
+          </div>
+
+          </div>
+          <!-- <div class="item">
+            <img src="login.png" alt="" />
+            <span class="caption">RCMRD Mobile Application</span>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- why  Us -->
+    <section></section>
+
+    <!-- Tools -->
+    <section></section>
+
+    <!------Contact Me------>
+    <div class="contact-me" id="contact">
+      <h3>In need of a website or a Graphic designer?</h3>
+      <br />
+      <p>Let's Make Something Together</p>
+      <p>Start By Saying Hi!</p>
+      <a
+        class="button-two"
+        href="mailto:blairetonney4@gmail.com? subject=subject text"
+        >Hire Me</a
+      >
+    </div>
+
+    <!------footer start--------->
+    <footer>
+      <!-- <p>Tonny Blaire</p> -->
+      <p>Looking forward to work on your projects</p>
+      <div class="address-div">
+        <br />
+        <h3>Connect</h3>
+        <br />
+        <p>0715 514 130</p><br />
+        <address class="footer-address" id="footer-address">
+          <a href="" class="footer-social" id="fa-phone"
+            ><!-- <i class="fa fa-phone" style="color: #fff"> 
+              &nbsp; 0715 514 130 <br />
+            </i>-->
+          </a>
+        </address>
+      </div>
+      <div class="social">
+        <a  href="https://wa.me/254715514130"
+        target="blank"
+        ><i class="fa fa-whatsapp whatsapp-icon"></i
+      ></a>
+        <a href="https://www.linkedin.com/in/tonny-blaire-3b39bb222"
+          target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://www.X.com/@tonney_blaire" target="blank"
+          ><i class="fab fa-X"></i
+        ></a>
+        <!-- <a href="#"><i class="fab fa-dribbble"></i></a> -->
+      </div>
+      <div class="copyright">
+        <span
+          >Copyright &copy; Blaire Designs
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </span>
+      </div>
+    </footer>
+    <a href="https://wa.me/254715514130" class="whatsapp_float" target="_blank">
+      <i class="fa fa-whatsapp whatsapp-icon"></i
+    ></a>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+    <div>
+        <ul>
+          <li><a href="https://www.google.com/blairetonney4@gmail.com">Google</a></li>
+          <li><a href="https://www.facebook.com/blairetonney4@gmail.com">Facebook</a></li>
+          <li><a href="https://www.X.com/@tonney_blaire">X</a></li>
+          <li><a href="https://www.linkedin.com/blairetonney4@gmail.com">LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <!--<script>
+      $(".carousel").flipster({
+        style: "carousel",
+        spacing: -0.2,
+      });
+    </script> -->
+    <!--Spinner start-->
+    <!--<section class="spinner-section">
+      <div class="spinner">
+        MAX designs
+        <div class="spinner-sector spinner-sector-red"></div>
+        <div class="spinner-sector spinner-sector-blue"></div>
+        <div class="spinner-sector spinner-sector-green"></div>
+      </div>
+      <br />
+      <br />
+
+       <div class="spinner-2">Loading</div> 
+    </section> -->
+    <!--Spinner end-->
+
+    <!--Alert(Thanks received) smtp server -->
+    <!--  <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          secureToken: "b5a9ed50-5b20-4ec1-90a4-232e0549a182",
+          Host: "smtp.elasticemail.com",
+          Username: "blairetonney4@gmail.com",
+          Password: "9001009B",
+          To: "blairetonney4@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New email subscription",
+          Body: "Email: " + document.getElementById("email").value,
+        }).then((message) => alert("Email received succesfully"));
+      }
+    </script> -->
+
+    <script>
+      function sendEmail() {
+        alert("Email received succesfully");
+      }
+    </script>
+
+
+     </script>
+  </body>
+</html>
